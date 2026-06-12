@@ -1,0 +1,59 @@
+title: Prompts del Componente DevOps de Politutorías
+description: >-
+  Compendio de prompts de IA Generativa (Gemini 2.5 Flash) utilizados durante
+  el desarrollo del componente DevOps y orquestación de IA agéntica del proyecto
+  Politutorías, Trabajo de Integración Curricular de la Escuela Politécnica Nacional.
+author: Estefano Mateo Proaño Ingavelez
+url: https://estefano2344.github.io
+baseurl: /politutorias-prompts
+
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: dark
+
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+
+heading_anchors: true
+
+aux_links:
+  "GitHub":
+    - "//github.com/Estefano2344/politutorias-prompts"
+  "TIC EPN":
+    - "//epn.edu.ec"
+
+footer_content: >-
+  Trabajo de Integración Curricular &middot;
+  Escuela Politécnica Nacional &middot;
+  <a href="mailto:estefano.proano@epn.edu.ec">estefano.proano@epn.edu.ec</a>
+
+last_edit_timestamp: true
+back_to_top: true
+back_to_top_text: "Volver arriba"
+
+callouts:
+  prompt:
+    title: Prompt
+    color: blue
+  respuesta:
+    title: Resumen de la respuesta
+    color: green
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
